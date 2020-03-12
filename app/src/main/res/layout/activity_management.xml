@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bglayout"
+    android:orientation="vertical"
+    tools:context=".Management">
+
+    <Button
+        android:id="@+id/test1_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#95FFEB3B"
+        android:text="Unit 1 MCQs"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <Button
+        android:id="@+id/test2_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#95FFEB3B"
+        android:text="UNIT 2 MCQs"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/test3_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#95FFEB3B"
+        android:text="Unit 3 MCQs"
+        android:textColor="@android:color/holo_blue_bright" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-7569810465217201/9970009465"></com.google.android.gms.ads.AdView>
+</LinearLayout>
